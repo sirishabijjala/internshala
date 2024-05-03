@@ -1,0 +1,127 @@
+.sul{
+    margin-left: 5%;
+    width: 500px;
+    display: inline-block;
+}
+.contain1{
+margin-left: 30%;
+}
+.content1 form input{
+    
+    
+    background-color: #fff;
+   
+    height: 31px;
+    padding: 2px 5px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+    color: #111;
+    font-size: 13px;
+    :focus{
+        border-color: #e77600;
+        box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+    }
+
+    
+}
+.button1{
+    margin-left: 8%;
+    border-radius: 15%;
+   color: #45a049;
+}
+h3{
+    margin-left: 35%;
+}
+
+.l{
+    margin-left: 30%;
+}
+.container-lg{
+    margin-left: 10%;
+    margin-top: 1%;
+  
+    
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.posts {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 400px; /* Set a maximum height for scroll */
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .posts {
+        max-height: none;
+    }
+}
+ a{
+    color: #0f9198;
+}
+nav .nav-item ul li{
+    color: #0f9198;
+}
+.button-container {
+    display: flex;
+  }
+  
+  .button1 {
+    margin-right: 0;
+    margin-left: 4%; /* Adjust margin as needed */
+  }
+  .i{
+    margin-left: 30%;
+  }
+  .i1{
+    margin-left: 40%;
+  }
+
+  *{
+    font-family:'Times New Roman', Times, serif;
+  }
